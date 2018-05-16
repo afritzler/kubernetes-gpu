@@ -14,12 +14,12 @@ spec:
     spec:
       hostPID: true
       initContainers:
-      - image: squat/modulus:df3d51b4730f367269e485d8a3707b525c09b6dd
+      - image: squat/modulus:4461642b7c0b073a10ddd7346eaabb3812cc902b
         name: modulus
         args:
         - compile
         - nvidia
-        - "387.34"
+        - "390.48"
         securityContext:
           privileged: true
         env:
@@ -107,7 +107,7 @@ spec:
           path: /dev
       containers:
       - image: "k8s.gcr.io/nvidia-gpu-device-plugin@sha256:0842734032018be107fa2490c98156992911e3e1f2a21e059ff0105b07dd8e9e"
-        command: ["/usr/bin/nvidia-gpu-device-plugin", "-logtostderr", "-host-path=/opt/drivers/nvidia/387.34"]
+        command: ["/usr/bin/nvidia-gpu-device-plugin", "-logtostderr", "-host-path=/opt/drivers/nvidia"]
         name: nvidia-gpu-device-plugin
         resources:
           requests:
