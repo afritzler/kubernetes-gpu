@@ -20,7 +20,7 @@ python imdb_cnn.py
 ```
 
 # Open Issues
-- [ ] Lable GPU nodes and add NodeSelector to daemonset
+- [ ] Label GPU nodes and add NodeSelector to daemonset
 
 
 # Acknowledgments & References
