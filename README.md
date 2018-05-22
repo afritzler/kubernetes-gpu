@@ -1,6 +1,8 @@
 # gpu-installer
 Install NVIDIA GPU Support on CoreOS based Kubernetes Cluster
 
+# Prerequisits
+* CoreOS based Kubernetes cluster with GPU nodes (e.g. AWS P2 instances)
 
 # Installation
 ```
