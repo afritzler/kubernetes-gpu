@@ -16,7 +16,7 @@ kubectl apply -f https://raw.githubusercontent.com/afritzler/kubernetes-gpu/mast
 ```
 
 
-# Run 
+# Run
 To run an example training on a GPU node, start first a base image with Tensorflow with GPU support & Keras
 ```
 kubectl apply -f https://raw.githubusercontent.com/afritzler/deeplearning-workbench/master/manifests/dl-workbench.yaml
