@@ -7,7 +7,7 @@ Install NVIDIA GPU Support on CoreOS based Kubernetes Cluster
 # Installation
 First install the nvidia driver via this daemonset
 ```
-kubectl apply -f https://raw.githubusercontent.com/afritzler/kubernetes-gpu/master/k8s-nvidia-gpu.yaml
+kubectl apply -f https://raw.githubusercontent.com/afritzler/kubernetes-gpu/master/k8s-nvidia-driver.yaml
 ```
 Wait until the init container finishes on each node and install the device plugin
 ```
