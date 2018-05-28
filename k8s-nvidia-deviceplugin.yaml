@@ -45,3 +45,5 @@ spec:
           mountPath: /device-plugin
         - name: dev
           mountPath: /dev
+  updateStrategy:
+    type: RollingUpdate
